@@ -1,7 +1,7 @@
 # CV Project
 
 ## About
-This project allows users to view, download, and print a Curriculum Vitae (CV).
+This project allows users to view, download, and print a Curriculum Vitae (CV).<br/>
 This project aims to simplify the job search process for Frontend Web Developers.
 
 ## Features
