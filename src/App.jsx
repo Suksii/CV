@@ -4,13 +4,9 @@ import AboutSection from "./sections/AboutSection.jsx";
 import WorkExperienceSection from "./sections/WorkExperienceSection.jsx";
 import EducationSection from "./sections/EducationSection.jsx";
 import { useRef } from "react";
-import { useReactToPrint } from "react-to-print";
-
 function App() {
 
     const printRef = useRef();
-
-
 
     return (
       <div className="px-4 xl:px-[10rem] py-4 bg-gray-200">

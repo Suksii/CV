@@ -1,5 +1,5 @@
 import React from 'react';
-import FeatherIcon from "feather-icons-react";
+import { FaGraduationCap } from "react-icons/fa6";
 
 const EducationSection = () => {
 
@@ -8,20 +8,20 @@ const EducationSection = () => {
             degree: "Bachelor of Science in Electrical Engineering",
             school: "University of Montenegro, Faculty of Electrical Engineering",
             date: "2015 - 2020",
-            description: "I graduated with a Bachelor of Science in Electrical Engineering from the University of Montenegro, Faculty of Electrical Engineering. I completed a five-year program with a focus on electrical power systems. My final thesis was on the topic of 'Optimal Sizing of Energy Storage Systems in Microgrids'."
+            description: "I graduated with a Bachelor of Science in Electrical Engineering from the University of Montenegro, Faculty of Electrical Engineering. I completed a four-year program with a focus on electrical power systems."
         },
         {
             degree: "High School Diploma",
             school: "Gymnasium 'Slobodan Škerović'",
             date: "2011 - 2015",
-            description: "I completed my high school education at the Technical School of Electrical Engineering in Podgorica. I graduated with a focus on electrical engineering and automation. During my high school education, I gained a solid foundation in mathematics, physics, electrical engineering, and automation."
+            description: "I graduated from Gymnasium 'Slobodan Škerović' in Podgorica, Montenegro. I completed a four-year program with a focus on natural sciences."
         }
     ]
 
     return (
         <div>
             <div className="flex gap-2 items-center">
-                <FeatherIcon icon={"book"} size={30} />
+                <FaGraduationCap size={30} />
                 <h1 className="text-2xl font-semibold py-2">Education</h1>
             </div>
             <hr className="w-full"/>
