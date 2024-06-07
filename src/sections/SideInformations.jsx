@@ -1,10 +1,4 @@
 import React from 'react';
-import {useReactToPrint} from "react-to-print";
-import { FaCalendarDays, FaLocationArrow, FaPhone, FaLinkedin, FaGithub, FaPrint } from "react-icons/fa6";
-import { IoMdMail, IoMdContact, IoMdSettings, IoMdDownload } from "react-icons/io";
-import { BiCode } from "react-icons/bi";
-
-import Suco from "../assets/Suco.jpg";
 import Header from "./sideSection/Header.jsx";
 import Contact from "./sideSection/Contact.jsx";
 import Skills from "./sideSection/Skills.jsx";

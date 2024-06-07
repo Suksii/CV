@@ -7,10 +7,10 @@ const Contact = () => {
     const info = [
         {icon: <FaCalendarDays size={22}/>, text: "27.07.1996"},
         {icon: <FaLocationArrow size={22}/>, text: "Podgorica, Montenegro"},
-        {icon: <IoMdMail size={22}/>, text: "ramovic225@gmail.com"},
         {icon: <FaPhone size={22}/>, text: "+382 69 741 999"},
-        {icon: <FaLinkedin size={22}/>, text: "https://www.linkedin.com/in/%C5%A1u%C4%87o-ramovi%C4%87-58a728256/"},
-        {icon: <FaGithub size={22}/>, text: "https://github.com/Suksiii"},
+        {icon: <IoMdMail size={22}/>, text: "ramovic225@gmail.com", link: "mailto:ramovic225@gmail.com"},
+        {icon: <FaLinkedin size={22}/>, link: "https://www.linkedin.com/in/%C5%A1u%C4%87o-ramovi%C4%87-58a728256/", text: "LinkedIn" },
+        {icon: <FaGithub size={22}/>, link: "https://github.com/Suksii", text: "GitHub"},
     ]
 
     return (
@@ -23,7 +23,7 @@ const Contact = () => {
                 {info.map((item, index) => (
                     <div key={index} className="flex py-1.5 gap-2 items-center break-all">
                         {item.icon}
-                        <p className="text-gray-500">{item.text}</p>
+                        {item.link ? <a href={item.link} target="_blank" rel="noreferrer" className="text-blue-500">{item.text}</a> : <p className="text-gray-500">{item.text}</p>}
                     </div>
                 ))}
             </div>
