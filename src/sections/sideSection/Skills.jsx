@@ -18,12 +18,12 @@ const Skills = () => {
     ]
 
     return (
-        <div className="md:py-4">
+        <div className="md:py-2">
             <div className="flex gap-2 items-center">
                 <IoMdSettings size={30} />
                 <h1 className="text-2xl font-semibold py-2">Skills</h1>
             </div>
-            <div className="flex md:flex-col justify-evenly flex-row gap-2 pb-2 flex-wrap">
+            <div className="flex md:flex-col justify-evenly flex-row gap-1 pb-2 flex-wrap">
                 {skills.map((item, index) => (
                     <div key={index} className="flex gap-2 items-center px-2 py-1">
                         {item.icon}

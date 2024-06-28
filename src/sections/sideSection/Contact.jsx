@@ -14,12 +14,12 @@ const Contact = () => {
     ]
 
     return (
-        <div className="md:py-4">
+        <div className="md:py-2">
             <div className="flex gap-2 items-center">
                 <IoMdContact size={30} />
                 <h1 className="text-2xl font-semibold py-2">Contact</h1>
             </div>
-            <div className="flex justify-between flex-wrap flex-row md:flex-col gap-2">
+            <div className="flex justify-between flex-wrap flex-row md:flex-col gap-1">
                 {info.map((item, index) => (
                     <div key={index} className="flex py-1.5 gap-2 items-center break-all">
                         {item.icon}

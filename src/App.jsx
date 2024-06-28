@@ -12,8 +12,8 @@ function App() {
       <div className="px-4 xl:px-[10rem] py-4 bg-gray-200">
           <div className="flex flex-col md:flex-row gap-2 py-4 shadow-xl rounded-2xl bg-gray-100" ref={printRef}>
               <SideInformations printRef={printRef}/>
-              <div className="px-3 xl:px-5 py-4">
-                  <AboutSection />
+              <div className="px-3 xl:px-5 py-5">
+                  {/*<AboutSection />*/}
                   <WorkExperienceSection />
                   <EducationSection />
               </div>

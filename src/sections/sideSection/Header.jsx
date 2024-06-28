@@ -30,9 +30,9 @@ const Header = ({printRef}) => {
 
     return (
         <>
-            <div className="rounded-full w-[220px] md:w-full h-[220px] mx-auto overflow-hidden">
-                <img src={Suco} alt={Suco} className="object-contain scale-105 hover:scale-110"/>
-            </div>
+        <div className="rounded-full w-[200px] md:w-[200px] h-[200px] mx-auto overflow-hidden">
+            <img src={Suco} alt={Suco} className="object-contain scale-105 hover:scale-110"/>
+        </div>
             <h1 className="text-4xl font-semibold py-4">Šućo Ramović</h1>
             <p className="text-gray-500 md:text-lg text-xl lg:text-xl font-semibold">Electrical Engineer</p>
             <p className="text-gray-500 md:text-lg text-xl lg:text-xl font-semibold">Frontend Developer</p>
