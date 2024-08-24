@@ -6,14 +6,13 @@ const Skills = () => {
 
     const skills = [
         {icon: <BiCode size={26}/>, text: "HTML"},
-        {icon: <BiCode size={26}/>, text: "CSS"},
-        {icon: <BiCode size={26}/>, text: "Tailwind"},
-        {icon: <BiCode size={26}/>, text: "SASS"},
-        {icon: <BiCode size={26}/>, text: "JavaScript"},
+        {icon: <BiCode size={26}/>, text: "CSS, TailwindCSS, SASS"},
+        {icon: <BiCode size={26}/>, text: "JavaScript, TypeScript"},
         {icon: <BiCode size={26}/>, text: "C"},
         {icon: <BiCode size={26}/>, text: "React.js"},
         {icon: <BiCode size={26}/>, text: "Node.js"},
         {icon: <BiCode size={26}/>, text: "MySQL"},
+        {icon: <BiCode size={26}/>, text: "MongoDB"},
         {icon: <BiCode size={26}/>, text: "Git"},
     ]
 

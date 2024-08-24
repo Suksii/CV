@@ -1,6 +1,7 @@
 import React from 'react';
 import {IoMdContact, IoMdMail} from "react-icons/io";
 import {FaCalendarDays, FaGithub, FaLinkedin, FaLocationArrow, FaPhone} from "react-icons/fa6";
+import {BiSolidUserDetail} from "react-icons/bi";
 
 const Contact = () => {
 
@@ -11,6 +12,7 @@ const Contact = () => {
         {icon: <IoMdMail size={22}/>, text: "ramovic225@gmail.com", link: "mailto:ramovic225@gmail.com"},
         {icon: <FaLinkedin size={22}/>, link: "https://www.linkedin.com/in/%C5%A1u%C4%87o-ramovi%C4%87-58a728256/", text: "LinkedIn" },
         {icon: <FaGithub size={22}/>, link: "https://github.com/Suksii", text: "GitHub"},
+        {icon: <BiSolidUserDetail size={22}/>, link: "https://suksii.github.io/portfolio/", text: "Portfolio"}
     ]
 
     return (
